@@ -7,7 +7,7 @@ namespace MadLibs.Models
         private string _adjOne;
         private string _verbOne;
         private string _nounOne;
-        private string _verbTwp;
+        private string _verbTwo;
         private string _nounTwo;
         private string _verbThree;
         private string _nounThree;
@@ -55,12 +55,12 @@ namespace MadLibs.Models
 
         public string GetVerbTwo()
         {
-            return _verbTwp;
+            return _verbTwo;
         }
 
         public void SetVerbTwo(string newVerb)
         {
-            _verbTwp = newVerb;
+            _verbTwo = newVerb;
         }
 
         public string GetNounTwo()
